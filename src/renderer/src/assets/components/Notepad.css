@@ -1,0 +1,59 @@
+.notepad {
+  width: 100%;
+}
+.ql-toolbar {
+  background-color: #fff;
+}
+
+.ql-container {
+  min-height: 100vh;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.ql-editor {
+  height: 100vh;
+  flex: 1;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.ql-container {
+  min-height: 100vh;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.ql-editor {
+  height: 100vh;
+  flex: 1;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.notepad-actions {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.notepad-actions button {
+  margin: 5px;
+  background-color: #5c5c5c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.notepad-actions button:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+  color: #5c5c5c;
+}

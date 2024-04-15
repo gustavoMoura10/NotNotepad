@@ -1,0 +1,35 @@
+.note {
+  border-top: 2px white solid;
+  border-bottom: 2px white solid;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-note {
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+.delete-note {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #ff6868;
+  border: none;
+  padding: 10px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.edit-note {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #fffc68;
+  border: none;
+  padding: 10px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
